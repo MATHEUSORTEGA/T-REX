@@ -40,7 +40,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   
-  trex = createSprite(width/2,height-50,20,50);
+  trex = createSprite(50,height-50,20,50);
   trex.addAnimation("running", trex_correndo);
   trex.addAnimation("colidiu" , trex_colidiu)
   trex.scale = 0.5;
@@ -57,7 +57,7 @@ function setup() {
   solo.x = solo.width /2;
   
   
-  soloinvisivel = createSprite(width/2,height-10,400,10);
+  soloinvisivel = createSprite(50,height-10,400,10);
   soloinvisivel.visible = false;
   fim.scale = 0.6
   
